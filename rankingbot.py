@@ -11,11 +11,10 @@ import matplotlib.font_manager as fm
 
 import json
 
-with open("config.json", "r", encoding="utf-8") as f:
-    config = json.load(f)
+with open("token.json", "r", encoding="utf-8") as f:
+    token = json.load(f)
 
-BOT_ID = config["application_id"]["rankingbot"]
-TOKEN = config["token"]["rankingbot"]
+TOKEN = token["rankingbot"]
 
 # =========================
 # 한글 폰트 설정 (라즈베리파이)
