@@ -17,7 +17,7 @@ with open("token.json", "r", encoding="utf-8") as f:
 TOKEN = token["rankingbot"]
 
 # =========================
-# 한글 폰트 설정 (라즈베리파이)
+# 한글 폰트 설정
 # =========================
 font_path = "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
 font_prop = fm.FontProperties(fname=font_path)
@@ -38,7 +38,7 @@ client = discord.Client(intents=intents)
 # =========================
 DATA_FILE = "data.json"
 
-RANK_MESSAGE_ID = 1499380228093382937
+RANK_MESSAGE_ID = None
 RANK_CHANNEL_NAME = "랭킹"
 
 # =========================
