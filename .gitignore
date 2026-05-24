@@ -181,3 +181,6 @@ cython_debug/
 .cursorindexingignore
 
 token.json
+config.json
+data.json
+groups.json
